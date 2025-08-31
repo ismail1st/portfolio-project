@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  display: flex;
+  align-items: flex-start;
+  box-shadow: 0 3px 12px;
+  background-color: bisque;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h2,
+h3,
+h4 {
+  margin-bottom: 15px;
+  color: brown;
+  font-weight: bold;
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: brown;
+  margin-left: 500px;
+}
+
+#home {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#home img {
+  display: flex;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 4px 10px;
+}
+#about {
+  text-align: center;
+}
+#skills {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+ul,
+ol {
+  margin: 10px;
+  padding-left: 30px;
+
+  list-style-position: inside;
+}
+li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+#Projects img {
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  margin-left: 700px;
+  border-radius: 15px;
+  display: block;
+}
+#contact input {
+  display: flex;
+  flex-direction: column;
+  margin-left: 700px;
+}
+#contact textarea {
+  display: flex;
+  flex-direction: column;
+  margin-left: 700px;
+}
